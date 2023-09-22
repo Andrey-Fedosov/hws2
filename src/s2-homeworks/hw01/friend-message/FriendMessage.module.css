@@ -1,31 +1,40 @@
 .friendMessage {
+  display: flex;
+  max-width: 875px;
 
+  min-width: 100px;
+  min-height: 80px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .friendImageAndText {
-
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .friendImageAndText img {
-
+  width: 48px;
+  height: 48px;
 }
 
 .friendText {
-
+  min-width: 50px;
+  background-color: rgba(241, 245, 255, 0.568);
+  border-radius: 10px;
+  max-width: 810px;
+  padding: 5px;
 }
 
 .friendText:after {
-
 }
 
 .friendName {
-
 }
 
 .friendMessageText {
-
 }
 
 .friendTime {
-
 }

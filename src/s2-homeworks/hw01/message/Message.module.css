@@ -1,31 +1,48 @@
 .message {
+  display: flex;
+  max-width: 875px;
 
+  min-width: 100px;
+  min-height: 60px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .imageAndText {
-
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .imageAndText img {
-
+  width: 48px;
+  height: 48px;
 }
 
 .text {
-
+  min-width: 50px;
+  background-color: rgb(60, 114, 242);
+  border-radius: 10px;
+  max-width: 810px;
+  padding: 5px;
 }
 
 .text:after {
-
+  position: relative;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(
+    45deg bottom right transparent 50% rgb(15, 23, 43)
+  );
+  left: -50px;
 }
 
 .name {
-
 }
 
 .messageText {
-
 }
 
 .time {
-
 }
